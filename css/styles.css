@@ -1,0 +1,82 @@
+.container{
+    width: 906px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+                              /* Header */
+.header {
+}
+
+
+.haeder__nav {
+}
+
+
+.haeder__nav__list {
+}
+
+
+.header__nav__item {
+}
+
+
+.header__nav__link {
+color: #7D7D7D;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.header__nav__link:hover,
+.header__nav__link:focus{
+    color: #03A9F4;
+}
+
+                                    /* maim blog */
+.blog__list {
+}
+
+
+.blog__item {
+}
+
+
+.blog__item__img {
+}
+
+
+.blog__item__subtitle {
+color: #B4AD9E;
+font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+font-weight: 300;
+}
+
+
+.blog__item__title {
+color: #626262;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+font-weight: 400;
+}
+
+
+.blog__item__text {
+color: #626262;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.blog__button {
+width: 165px;
+height: 60px;
+color: #626262;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+font-weight: 400;
+}
