@@ -1,20 +1,27 @@
 .container{
-    width: 906px;
+    width: 936px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 2px solid red;
 }
 
 
                               /* Header */
 .header {
+    margin-top: 71px ;
+    margin-bottom: 92px;
 }
 
 
 .haeder__nav {
+    
 }
 
 
 .haeder__nav__list {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
 }
 
 
@@ -37,6 +44,8 @@ font-weight: 400;
 
                                     /* maim blog */
 .blog__list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
