@@ -1,0 +1,7 @@
+@import "./base/_reset.css";
+.container {
+  width: 936px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid red;
+}/*# sourceMappingURL=main.css.map */
