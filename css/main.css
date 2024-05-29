@@ -69,4 +69,59 @@ img {
 .header__nav__link:hover,
 .header__nav__link:focus {
   color: #03A9F4;
+}
+
+.blog__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px 65px;
+  justify-content: center;
+}
+
+.blog__item {
+  flex-basis: calc((100% - 65px) / 2);
+}
+
+.blog__item__img {
+  margin-bottom: 32px;
+}
+
+.blog__item__subtitle {
+  color: #B4AD9E;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+.blog__item__title {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.blog__item__text {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 420px;
+}
+
+.blog__button {
+  display: flex;
+  margin: 0 auto;
+  width: 165px;
+  height: 60px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+  border: 1px solid #626262;
+  margin-bottom: 66px;
+  margin-top: 90px;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
