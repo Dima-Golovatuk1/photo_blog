@@ -1,7 +1,72 @@
-@import "./base/_reset.css";
+*,
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 936px;
   margin: 0 auto;
   padding: 0 15px;
   outline: 2px solid red;
+}
+
+.header {
+  margin-top: 71px;
+  margin-bottom: 92px;
+}
+
+.haeder__nav__list {
+  display: flex;
+  gap: 99px;
+  justify-content: center;
+}
+
+.header__nav__link {
+  color: #7D7D7D;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__nav__link:hover,
+.header__nav__link:focus {
+  color: #03A9F4;
 }/*# sourceMappingURL=main.css.map */

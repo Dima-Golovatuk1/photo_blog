@@ -1,2 +1,8 @@
-@import"./base/_reset.css";
-@import"./base/container"
+//BASE
+@import "./base/reset";
+@import "./base/container";
+
+
+//Components
+@import "./base/header";
+@import "./components/section";

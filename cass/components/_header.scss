@@ -1,0 +1,34 @@
+.header {
+    margin-top: 71px ;
+    margin-bottom: 92px;
+}
+
+
+.haeder__nav {
+    
+}
+
+
+.haeder__nav__list {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
+}
+
+
+.header__nav__item {
+}
+
+
+.header__nav__link {
+color: #7D7D7D;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.header__nav__link:hover,
+.header__nav__link:focus{
+    color: #03A9F4;
+}
