@@ -65,10 +65,14 @@ img {
   font-size: 14px;
   font-weight: 400;
 }
-
-.header__nav__link:hover,
-.header__nav__link:focus {
+.header__nav__link:hover, .header__nav__link:focus {
   color: #03A9F4;
+}
+
+.blog__item__text, .blog__item__title {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 .blog__list {
@@ -95,18 +99,12 @@ img {
 }
 
 .blog__item__title {
-  color: #626262;
-  font-family: "Playfair Display", serif;
   font-size: 30px;
-  font-weight: 400;
   margin-bottom: 40px;
 }
 
 .blog__item__text {
-  color: #626262;
-  font-family: "Playfair Display", serif;
   font-size: 14px;
-  font-weight: 400;
   width: 420px;
 }
 

@@ -4,11 +4,6 @@
 }
 
 
-.haeder__nav {
-    
-}
-
-
 .haeder__nav__list {
     display: flex;
     gap: 99px;
@@ -16,19 +11,17 @@
 }
 
 
-.header__nav__item {
-}
-
-
 .header__nav__link {
-color: #7D7D7D;
+color: $title-color;
 font-family: 'Playfair Display', serif;
 font-size: 14px;
 font-weight: 400;
-}
 
 
-.header__nav__link:hover,
-.header__nav__link:focus{
+&:hover,
+&:focus{
     color: #03A9F4;
 }
+}
+
+
